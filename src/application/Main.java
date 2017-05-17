@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-		Player player=new Player();
+		Player player=new Player("https://www.youtube.com/watch?v=Wip70PXlIN4");		
 		Scene scene=new Scene(player,720,480,Color.BLACK);
 		primaryStage.setScene(scene);
 		primaryStage.show();
